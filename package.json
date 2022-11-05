@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-tut",
+  "version": "1.0.0",
+  "description": "\"A task manager CRUD app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karianmash/task-manager-tut.git"
+  },
+  "author": "\"Ian Macharia\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karianmash/task-manager-tut/issues"
+  },
+  "homepage": "https://github.com/karianmash/task-manager-tut#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
