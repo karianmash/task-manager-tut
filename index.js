@@ -1,7 +1,8 @@
 const express = require("express");
+
 const cors = require("cors");
 
-const taskRoutes = require("./routes/task");
+const taskRoutes = require("./routes/task.routes");
 
 const port = 8000;
 
@@ -13,12 +14,14 @@ app.use(cors());
 
 // Parse incoming urlencoded and json bodies
 app.use(express.urlencoded({ extended: false }));
+
 app.use(express.json());
 
 // Handle routes
 app.get("/", (req, res) => {
   res.json({ message: "Hello and welcome to Task Manager!" });
 });
+
 app.use("/tasks", taskRoutes);
 
 // Handle requests that cross past the above request handlers
