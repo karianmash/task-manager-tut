@@ -9,6 +9,11 @@ let tasks = [
     title: "Task 2",
     description: "This is task 2",
   },
+  {
+    taskId: 3,
+    title: "Task 3",
+    description: "This is task 3",
+  },
 ];
 
 // create task
