@@ -1,5 +1,5 @@
 # task-manager-tut
 
-REST API tutorial code!
+REST API code for a tutorial!
 
-## Docs coming soon
+## Docs not necessary
